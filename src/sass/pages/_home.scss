@@ -6,4 +6,21 @@
 body {
   font-family: type.$font;
   background-color: var.$bg-very-light;
+  font-variation-settings: "opsz" 50, "SOFT" 30, "WONK" 0.5;
+  font-weight: 700;
+}
+
+h1 {
+ font-variation-settings: "opsz" 40, "SOFT" 20 "WONK" 0.3;
+ font-weight: 900; 
+}
+
+.header__desc {
+  font-variation-settings: "opsz" 20, "SOFT" 10 "WONK" .2;
+  font-weight: 500;
+}
+
+.header__desc--first {
+  font-variation-settings: "opsz" 10, "SOFT" 5 "WONK" .1;
+  font-weight: 600;
 }
